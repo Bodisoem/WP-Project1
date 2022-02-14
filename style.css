@@ -190,13 +190,17 @@ header {
 
 .list-recipe {
   margin-bottom: 50px;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 15px;
+  row-gap: 15px;
+  justify-items: center;
 }
 
 .card {
   margin-left: 6%;
   flex-basis: 25%;
-  width: 300px;
+  width: 400px;
 }
 
 .card__content {
