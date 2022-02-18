@@ -230,27 +230,27 @@ header {
 }
 
 .card__front_1 {
-  background-image: url("https://i0.wp.com/www.livewellbakeoften.com/wp-content/uploads/2021/01/Tiramisu.jpg?resize=682%2C1024&ssl=1");
-/* Add image for recipe here */
+  background-image: url("pic1.jpeg");
+  /* Add image for recipe here */
 }
 .card__front_2 {
-  background-image: url("https://butternutbakeryblog.com/wp-content/uploads/2020/04/cheesecake-slice-683x1024.jpg");
+  background-image: url("pic2.jpeg");
 }
 
 .card__front_3 {
-  background-image: url("https://www.justsotasty.com/wp-content/uploads/2017/10/Red-Velvet-Cake-4.jpg");
+  background-image: url("pic3.jpeg");
 }
 
 .card__front_4 {
-  background-image: url("https://en.petitchef.com/imgupl/recipe/custard-tart-video-recipe--lg-449932p720411.jpg");
+  background-image: url("pic4.jpeg");
 }
 
 .card__front_5 {
-  background-image: url("https://en.petitchef.com/imgupl/recipe/oreo-roll-cake--lg-458302p716053.jpg");
+  background-image: url("pic5.jpeg");
 }
 
 .card__front_6 {
-  background-image: url("https://en.petitchef.com/imgupl/recipe/peanut-butter-and-oreo-brownies--lg-454072p703857.jpg");
+  background-image: url("pic6.jpeg");
 }
 
 .card__front {
@@ -297,20 +297,18 @@ header {
   color: #2fa0f6;
 }
 
-.ul1{
+.ul1 {
   font-style: oblique;
   list-style-type: disc;
-  color: #72ff77 ;
+  color: #72ff77;
   font-family: cursive;
   text-align: left;
 }
-
 
 .card__back {
   transform: rotateY(0.5turn);
   color: var(--clr);
   background: rgb(235, 151, 223);
-  
 }
 
 .button {
